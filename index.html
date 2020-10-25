@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="base.css">
+	<link id="theme" rel="stylesheet" href="black.css">
+	<link rel="icon" href="logo.svg">
+	<title>Vonat késés</title>
+</head>
+<body onload="init()">
+	<div id="program">
+		<h1>Utolsó frissítés <button onclick="requestData()" style="font-size: 30px;">Frissítés</button></h1>
+		<h2 id="lastupdate">betöltés...</h2>
+		<h1 id="mav-count">MÁV (-- db)</h>
+		<h2 id="mav-avg-delay">Átlagos késés: betöltés...</h2>
+		<h2 id="mav-max-delay">Maximális késés: betöltés...</h2>
+		<h1 id="hev-count">HÉV (-- db)</h1>
+		<h2 id="hev-avg-delay">Átlagos késés: betöltés...</h2>
+                <h2 id="hev-max-delay">Maximális késés: betöltés...</h2>
+		<h1 id="gysev-count">GYSEV (-- db)</h1>
+                <h2 id="gysev-avg-delay">Átlagos késés: betöltés...</h2>
+                <h2 id="gysev-max-delay">Maximális késés: betöltés...</h2>
+	</div>
+	<footer>© Kis-Bogdán Kolos 2020</footer>
+	<script src="train.js"></script>
+</body>
+</html>
