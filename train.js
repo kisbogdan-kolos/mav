@@ -29,7 +29,7 @@ function requestData() {
 			if (parseOk) processData(data);
 		}
 	};
-	xhttp.open("GET", "http://apiv2.oroszi.net/elvira/maps", true);
+	xhttp.open("GET", "https://apiv2.oroszi.net/elvira/maps", true);
 	xhttp.send();
 }
 
